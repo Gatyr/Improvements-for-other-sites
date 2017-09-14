@@ -1,0 +1,140 @@
+html, body, .wrapper-div, #main-body-div, #news-bar {
+	min-height: 100%;
+}
+html {
+	overflow: scroll;
+}
+.navbar h1 {
+	padding: 30px;
+	color: white;
+	font-weight: bold;
+	margin: 0;
+}
+.link-nav {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	color: white;
+}
+.link-nav li {
+	display: inline-block;
+	color: white;
+}
+.link-nav a {
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-right: 2px solid white;
+	padding-right: 5px;
+}
+#main-body-div {
+	width: 100%;
+}
+#news-bar img {
+	margin: 10px 0 10px 20px;
+	width: 50px;
+	height: auto;
+}
+#news-bar {
+	height: 100%;
+	min-width: 250px;
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	padding: : 30px;
+	background-color: #f1fee0;
+	border-right: 1px solid black;
+	float: left;
+}
+#news-bar-header, #events-header {
+	height: 100px;
+	align-content: center;
+	text-align: center;
+	border-bottom: 1px solid black;
+	margin: 0 10px 0 10px;
+}
+#news-bar-header p, #events-header p {
+	display: inline-block;
+}
+#news-main {
+	height: 100px;
+}
+#main-content-div {
+	width: 80%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	position: relative;
+	padding: 0 20px 0 20px;
+}
+.events-link {
+	height: 100px;
+	border-bottom: 1px solid black;
+	margin: 10px;
+	padding: 10px;
+	border-left: 3px solid #283618;
+	transition: background-color .5s;
+	border-radius: 5px;
+}
+.events-link:hover {
+	background-color: #283618;
+	box-shadow: 10px 10px 5px #888;
+}
+.events-link h4, .events-link p {
+	font-weight: bolder;
+	color: black;
+}
+.events-link a {
+	text-decoration: none;
+}
+#description-text {
+	width: 600px;
+	float: left;
+}
+#description-text a {
+	color: #ad1e1e;
+	text-decoration: none;
+	font-weight: bold;
+}
+#description img {
+	padding-left: 20px;
+}
+#filler {
+	background-image: url('../images/blonde-lab.jpg');
+	background-position: center;
+	background-size: 100% auto; 
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	height: 400px;
+	width: 100%;
+}
+@media (min-width: 1000px) {
+	.navbar {
+		height: 500px;
+		width: 100%;
+		background-image: url('../images/black-lab.jpeg');
+		background-position: center;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		position: relative;
+		background-attachment: fixed;
+		margin-bottom: 0;
+		border-radius: 0;
+	}
+}
+@media (max-width: 1000px) {
+	.navbar {
+	height: 500px;
+	width: 100%;
+	background-image: url('../images/black-lab.jpeg');
+	background-position: center;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	background-attachment: fixed;
+	margin-bottom: 0;
+	border-radius: 0;
+}
+}
